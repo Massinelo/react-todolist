@@ -1,11 +1,13 @@
 import React from 'react';
 
-const Header = () => {
-  return (
-    <div className="headerContainer">
-      <h1>Todo List </h1>
-    </div>
-  );
-};
+//Icons (using react-icons)
+import { FaRegListAlt } from 'react-icons/fa';
+
+const Header = () => (
+  <div className="headerContainer">
+    <FaRegListAlt />
+    <h1>Todo List </h1>
+  </div>
+);
 
 export default Header;

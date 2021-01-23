@@ -8,16 +8,6 @@ import Form from './components/Form';
 import Footer from './components/Footer';
 
 function App() {
-  // HTML
-  // States
-  // Interractions :
-  // 0- l'input est store dans le state ()   OK!
-  // a- balancer une nouvelle tache (linput se vide) et on push dans tasks OK !
-  // b- quand on check is done passe a true, le titre est barré OK !
-  // c- remove enleve la tache OK !
-  // component
-  // CSS
-
   const [tasks, setTasks] = useState([
     { title: 'première tache!', isDone: false },
     { title: 'deuxième tache!', isDone: false },
@@ -50,6 +40,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+
       <Task
         handleCheck={handleCheck}
         handleRemove={handleRemove}
