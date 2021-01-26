@@ -1,7 +1,98 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.headerContainer {
+  display: flex;
+  height: 100px;
+  font-size: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.listIcon {
+  color: #5c47d3;
+  margin: 0 30px;
+  height: 40px;
+  width: 40px;
+}
+
+/* Task */
+.taskContainer {
+  margin-bottom: 20px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 400px;
+  margin: auto;
+  font-size: 18px;
+}
+
+.checkbox {
+  margin-right: 30px;
+}
+
+.trashIcon {
+  color: #5c47d3;
+  height: 18px;
+  width: 16px;
+  cursor: pointer;
+}
+
 .done {
   text-decoration: line-through;
 }
 
-.taskContainer {
-  color: red;
+/* Form */
+
+.formContainer {
+  display: flex;
+  justify-content: center;
 }
+
+.form {
+  width: 440px;
+  height: 45px;
+}
+
+.input {
+  width: 316px;
+  height: 45px;
+  margin-right: 29px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #5c47d3;
+  border-radius: 5px;
+  padding-left: 10px;
+  background-color: #f2f7fd;
+  font-size: 18px;
+  font-weight: inherit;
+}
+
+.submitButton {
+  width: 95px;
+  height: 45px;
+  background-color: #5c47d3;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+
+.submitButton:hover {
+  background-color: white;
+  border: 1px solid #5c47d3;
+  color: #5c47d3;
+}
+
+/* Footer */

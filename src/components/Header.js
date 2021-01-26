@@ -5,7 +5,7 @@ import { FaRegListAlt } from 'react-icons/fa';
 
 const Header = () => (
   <div className="headerContainer">
-    <FaRegListAlt />
+    <FaRegListAlt className="listIcon" />
     <h1>Todo List </h1>
   </div>
 );
