@@ -96,8 +96,15 @@ body {
 }
 
 /* Footer */
-.footerContainer {
-  display: flex;
-  justify-content: center;
+footer {
+  text-align: center;
   margin-top: 90px;
+  color: #5c47d3;
+}
+
+footer a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
 }
