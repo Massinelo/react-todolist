@@ -14,9 +14,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-<footer>
-  Made with <a href="https://reactjs.org/">React</a> @{' '}
-  <a href="https://www.lereacteur.io/">Le Reacteur</a> by{' '}
-  <a href="https://github.com/jolisdegats">Jolisdegats</a>{' '}
-</footer>;
